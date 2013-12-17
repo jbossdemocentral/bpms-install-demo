@@ -3,7 +3,6 @@ JBoss BPM Suite Install Demo
 
 Project to automate the installation of this product without preconfiguration beyond a single admin user.
 
-
 Quickstart
 ----------
 
@@ -30,3 +29,6 @@ Released versions
 See the tagged releases for the following versions of the product:
 
 - v0.1 - JBoss BPM Suite 6.0.0.Beta in stalled on JBoss EAP 6.1.1.
+
+
+![Install Console](https://github.com/eschabell/bpms-install-demo/blob/master/support/install-console.png?raw=true)
