@@ -89,6 +89,10 @@ echo "  - enabling demo accounts role setup in application-roles.properties file
 echo
 cp $SUPPORT_DIR/application-roles.properties $SERVER_CONF
 
+echo "  - setting up mock bpm dashboard data..."
+echo
+cp $SUPPORT_DIR/1000_jbpm_demo_h2.sql $SERVER_DIR/dashbuilder.war/WEB-INF/etc/sql
+
 echo "  - setting up standalone.xml configuration adjustments..."
 echo
 cp $SUPPORT_DIR/standalone.xml $SERVER_CONF
