@@ -30,6 +30,8 @@ Released versions
 
 See the tagged releases for the following versions of the product:
 
+- v0.4 - JBoss BPM Suite 6.0.0.CR2 installed on JBoss EAP 6.1.1.
+
 - v0.3 - JBoss BPM Suite 6.0.0.CR1 installed on JBoss EAP 6.1.1 with optional mock data.
 
 - v0.2 - JBoss BPM Suite 6.0.0.Beta installed on JBoss EAP 6.1.1 with mock data.
