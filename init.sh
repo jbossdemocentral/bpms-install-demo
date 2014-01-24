@@ -11,8 +11,8 @@ SRC_DIR=./installs
 SUPPORT_DIR=./support
 PRJ_DIR=./projects
 EAP=jboss-eap-6.1.1.zip
-BPMS=jboss-bpms-6.0.0.Beta-redhat-5-deployable-eap6.x.zip
-VERSION=6.0.0.Beta
+BPMS=jboss-bpms-6.0.0.GA-redhat-1-deployable-eap6.x.zip
+VERSION=6.0.0.CR1
 
 # wipe screen.
 clear 
@@ -89,9 +89,13 @@ echo "  - enabling demo accounts role setup in application-roles.properties file
 echo
 cp $SUPPORT_DIR/application-roles.properties $SERVER_CONF
 
-echo "  - setting up mock bpm dashboard data..."
-echo
-cp $SUPPORT_DIR/1000_jbpm_demo_h2.sql $SERVER_DIR/dashbuilder.war/WEB-INF/etc/sql
+# Optional: uncomment this to install mock data for BPM Suite, providing 
+#           colorful BAM history charts and filled Process & Task dashboard 
+#           views.
+#
+#echo "  - setting up mock bpm dashboard data..."
+#echo
+#cp $SUPPORT_DIR/1000_jbpm_demo_h2.sql $SERVER_DIR/dashbuilder.war/WEB-INF/etc/sql
 
 echo "  - setting up standalone.xml configuration adjustments..."
 echo

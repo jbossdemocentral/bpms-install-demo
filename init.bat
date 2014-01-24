@@ -14,8 +14,8 @@ set SRC_DIR=%PROJECT_HOME%\installs
 set SUPPORT_DIR=%PROJECT_HOME%\support
 set PRJ_DIR=%PROJECT_HOME%\projects
 set EAP=jboss-eap-6.1.1.zip
-set BPMS=jboss-bpms-6.0.0.Beta-redhat-5-deployable-eap6.x.zip
-set WEBSERVICE=jboss-mortgage-demo-ws.war
+set BPMS=jboss-bpms-6.0.0.GA-redhat-1-deployable-eap6.x.zip
+set VERSION=6.0.0.CR1
 
 REM wipe screen.
 cls
@@ -104,10 +104,14 @@ echo.
 xcopy /Y /Q "%SUPPORT_DIR%\application-roles.properties" "%SERVER_CONF%"
 echo. 
 
-echo - setting up mock bpm dashboard data...
-echo.
-xcopy /Y /Q "%SUPPORT_DIR%\1000_jbpm_demo_h2.sql" "%SERVER_DIR%\dashbuilder.war\WEB-INF\etc\sql"
-echo. 
+REM Optional: uncomment this to install mock data for BPM Suite, providing 
+REM           colorful BAM history charts and filled Process & Task dashboard 
+REM           views.
+REM
+REM echo - setting up mock bpm dashboard data...
+REM echo.
+REM xcopy /Y /Q "%SUPPORT_DIR%\1000_jbpm_demo_h2.sql" "%SERVER_DIR%\dashbuilder.war\WEB-INF\etc\sql"
+REM echo. 
 
 echo - setting up standalone.xml configuration adjustments...
 echo.
