@@ -14,9 +14,7 @@ Quickstart
 
 4. Login to http://localhost:8080/business-central  (u:erics / p:bpmsuite)
 
-5. Process and Task dashboard pre-filled with mock data optional now, to add just uncomment install scripts (see inline script comments).
-
-6. Enjoy installed and configured JBoss BPM Suite.
+5. Enjoy installed and configured JBoss BPM Suite.
 
 
 Supporting Articles
@@ -29,6 +27,8 @@ Released versions
 -----------------
 
 See the tagged releases for the following versions of the product:
+
+- v1.0 - JBoss BPM Suite 6.0.0.GA installed on JBoss EAP 6.1.1.
 
 - v0.4 - JBoss BPM Suite 6.0.0.CR2 installed on JBoss EAP 6.1.1.
 
