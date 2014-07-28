@@ -8,7 +8,7 @@ Quickstart
 
 1. [Download and unzip.](https://github.com/eschabell/bpms-install-demo/archive/master.zip)
 
-2. Add products to installs directory.
+2. Add product installer to installs directory.
 
 3. Run 'init.sh' or 'init.bat' file.
 
