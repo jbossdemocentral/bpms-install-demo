@@ -11,6 +11,7 @@ SRC_DIR=./installs
 SUPPORT_DIR=./support
 PRJ_DIR=./projects
 BPMS=jboss-bpmsuite-installer-6.1.0.ER2.jar
+# TODO: before tagging set to 6.1 on release.
 VERSION=6.1.ER2
 
 # wipe screen.
