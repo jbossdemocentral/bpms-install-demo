@@ -22,7 +22,7 @@ cls
 echo.
 echo #################################################################
 echo ##                                                             ##   
-echo ##  Setting up the %DEMO%                               ##
+echo ##  Setting up the %DEMO%                                ##
 echo ##                                                             ##   
 echo ##                                                             ##   
 echo ##     ####  ####   #   #      ### #   # ##### ##### #####     ##
@@ -33,9 +33,9 @@ echo ##     ####  #     #     #    ###  ##### #####   #   #####     ##
 echo ##                                                             ##   
 echo ##                                                             ##   
 echo ##  brought to you by,                                         ##   
-echo ##             %AUTHORS%               ##
+echo ##             %AUTHORS%                                ##
 echo ##                                                             ##   
-echo ##  %PROJECT%     ##
+echo ##  %PROJECT%      ##
 echo ##                                                             ##   
 echo #################################################################
 echo.
@@ -69,7 +69,13 @@ if exist %JBOSS_HOME% (
 REM Run installer.
 echo Product installer running now...
 echo.
-java -jar %SRC_DIR%/%BPMS% %SUPPORT_DIR%\installation-bpms -variablefile %SUPPORT_DIR%\installation-bpms.variables
+call java -jar %SRC_DIR%/%BPMS% %SUPPORT_DIR%\installation-bpms -variablefile %SUPPORT_DIR%\installation-bpms.variables
+
+if not "%ERRORLEVEL%" == "0" (
+	echo Error Occurred During %PRODUCT% Installation!
+	echo.
+	GOTO :EOF
+)
 
 echo - enabling demo accounts role setup in application-roles.properties file...
 echo.
