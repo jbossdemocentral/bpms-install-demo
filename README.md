@@ -28,7 +28,7 @@ Released versions
 
 See the tagged releases for the following versions of the product:
 
-- v1.4 - moved to JBoss Demo Central.
+- v1.5 - moved to JBoss Demo Central, updated windows init.bat support.
 
 - v1.4 - JBoss BPM SUite 6.0.3 installer on JBoss EAP 6.1.1.
 
