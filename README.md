@@ -22,7 +22,7 @@ Once installed you can use the JBoss BPM Suite login:
    * u: mary   p: bpmsuite (manager)
 
 
-nstall on your machine
+Install on your machine
 -----------------------
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-install-demo/archive/master.zip)
 
@@ -35,8 +35,8 @@ nstall on your machine
 5. Enjoy installed and configured JBoss BPM Suite.
 
 
-Docker
--------------------------
+Optional Docker Install
+-----------------------
 
 The following steps can be used to configure and run the demo in a docker container
 
@@ -44,21 +44,24 @@ The following steps can be used to configure and run the demo in a docker contai
 
 2. Add product installer to installs directory.
 
-3. Build demo image
+3. Copy contents of support/docker directory to the project root.
+
+4. Build demo image.
 
 	```
 	docker build -t jbossdemocentral/bpms-install-demo .
 	```
-4. Start demo container
+5. Start demo container
 
 	```
 	docker run --it -p 8080:8080 -p 9990:9990 jbossdemocentral/bpms-install-demo
 	```
-5. Login to http://<DOCKER_HOST>:8080/business-central (u:erics / p:bpmsuite1!)
+6. Login to http://<DOCKER_HOST>:8080/business-central (u:erics / p:bpmsuite1!)
 
-6. Enjoy installed and configured JBoss BPM Suite.
+7. Enjoy installed and configured JBoss BPM Suite.
 
 Additional information can be found in the jbossdemocentral docker [developer repository](https://github.com/jbossdemocentral/docker-developer)
+
 
 Supporting Articles
 -------------------
@@ -70,6 +73,8 @@ Released versions
 -----------------
 
 See the tagged releases for the following versions of the product:
+
+- v1.6 - JBoss BPM Suite 6.0.3 with optional docker installation.
 
 - v1.5 - moved to JBoss Demo Central, updated windows init.bat support and one click install button.
 
