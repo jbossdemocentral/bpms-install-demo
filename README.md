@@ -2,7 +2,7 @@ JBoss BPM Suite Install Demo
 =============================
 Project to automate the installation of this product without preconfiguration beyond a single admin user.
 
-There are three options to install this project:
+There are three options available to you for using this demo; local, Openshift and Docker.
 
 
 Option 1 - Install on your machine
