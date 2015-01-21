@@ -37,8 +37,8 @@ Once installed you can use the JBoss BPM Suite login:
    * u: mary   p: bpmsuite (manager)
 
 
-Option 3 - Generate docker image
---------------------------------
+Option 3 - Generate docker install
+----------------------------------
 The following steps can be used to configure and run the demo in a docker container
 
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-install-demo/archive/master.zip)
