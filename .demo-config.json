@@ -1,9 +1,7 @@
 {
   "name":"JBoss BPM Suite Install Demo",
-  "summary":"Project to automate the installation of this product without preconfiguration beyond a single admin user.
-
-Install options - local, OpenShift and Docker.",
-  "author":"Andrew Block, Eric D. Schabell"
+  "summary":"Project to automate the installation of this product without preconfiguration beyond a single admin user. Install options - local, OpenShift and Docker.",
+  "author":"Andrew Block, Eric D. Schabell",
   "categories":["bpms"],
   "level":"Easy Peasy",
   "published":true,
