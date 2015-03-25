@@ -7,7 +7,7 @@ set AUTHORS=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:jbossdemocentral/bpms-install-demo.git
 set PRODUCT=JBoss BPM Suite
 set JBOSS_HOME=%PROJECT_HOME%target\jboss-eap-6.1
-set SERVER_DIR=%JBOSS_HOME%\standalone\deployments\
+set SERVER_DIR=%JBOSS_HOME%\standalone\deployments
 set SERVER_CONF=%JBOSS_HOME%\standalone\configuration\
 set SERVER_BIN=%JBOSS_HOME%\bin
 set SRC_DIR=%PROJECT_HOME%\installs
@@ -86,6 +86,10 @@ echo - setting up standalone.xml configuration adjustments...
 echo.
 xcopy /Y /Q "%SUPPORT_DIR%\standalone.xml" "%SERVER_CONF%"
 echo.
+
+echo - setup email task notification users...
+echo.
+xcopy "%SUPPORT_DIR%\userinfo.properties" "%SERVER_DIR%\business-central.war\WEB-INF\classes\"
 
 echo.
 echo You can now start the %PRODUCT% with %SERVER_BIN%\standalone.bat

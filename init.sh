@@ -4,7 +4,7 @@ AUTHORS="Andrew Block, Eric D. Schabell"
 PROJECT="git@github.com:jbossdemocentral/bpms-install-demo.git"
 PRODUCT="JBoss BPM Suite"
 JBOSS_HOME=./target/jboss-eap-6.1
-SERVER_DIR=$JBOSS_HOME/standalone/deployments/
+SERVER_DIR=$JBOSS_HOME/standalone/deployments
 SERVER_CONF=$JBOSS_HOME/standalone/configuration/
 SERVER_BIN=$JBOSS_HOME/bin
 SRC_DIR=./installs
@@ -77,6 +77,10 @@ cp $SUPPORT_DIR/application-roles.properties $SERVER_CONF
 echo "  - setting up standalone.xml configuration adjustments..."
 echo
 cp $SUPPORT_DIR/standalone.xml $SERVER_CONF
+
+echo "  - setup email task notification users..."
+echo
+cp $SUPPORT_DIR/userinfo.properties $SERVER_DIR/business-central.war/WEB-INF/classes/
 
 # Add execute permissions to the standalone.sh script.
 echo "  - making sure standalone.sh for server is executable..."
