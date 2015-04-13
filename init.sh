@@ -61,7 +61,7 @@ else
 		exit
 fi
 
-# Move the old JBoss instance, if it exists, to the OLD position.
+# Remove the old JBoss instance, if it exists.
 if [ -x $JBOSS_HOME ]; then
 		echo "  - removing existing JBoss product..."
 		echo
