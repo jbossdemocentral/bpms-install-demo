@@ -106,4 +106,4 @@ See the tagged releases for the following versions of the product:
 - v0.1 - JBoss BPM Suite 6.0.0.Beta installed on JBoss EAP 6.1.1.
 
 
-![BPM Suite](https://github.com/jbossdemocentral/bpms-install-demo/blob/master/docs/demo-images/bpmsuite.png?raw=true)
+![BPM Suite](https://raw.githubusercontent.com/jbossdemocentral/bpms-install-demo/6.1/docs/demo-images/bpmsuite.png)
