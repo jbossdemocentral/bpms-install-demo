@@ -36,6 +36,8 @@ Once installed you can use the JBoss BPM Suite login:
 
    * u: mary   p: bpmsuite (manager)
 
+Current hosting of bpmPaaS is on JBoss BPM Suite 6.0.2 in OpenShift Online.
+
 
 Option 3 - Generate docker install
 ----------------------------------
