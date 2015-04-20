@@ -351,7 +351,7 @@
                     </netty-connector>
                     <netty-connector name="netty-ssl" socket-binding="messaging-ssl">
                         <param key="ssl-enabled" value="true"/>
-                        <param key="key-store-path" value="/Users/erics/Downloads/eap/target/jboss-eap-6.4/ssl/server.keystore.jks"/>
+												<param key="key-store-path" value="${jboss.home.dir}/ssl/server.keystore.jks"/>
                         <param key="key-store-password" value="${VAULT::vaulted::generated.keystores.server.storepass::1}"/>
                     </netty-connector>
                     <in-vm-connector name="in-vm" server-id="0"/>
@@ -365,7 +365,7 @@
                     </netty-acceptor>
                     <netty-acceptor name="netty-ssl" socket-binding="messaging-ssl">
                         <param key="ssl-enabled" value="true"/>
-                        <param key="key-store-path" value="/Users/erics/Downloads/eap/target/jboss-eap-6.4/ssl/server.keystore.jks"/>
+												<param key="key-store-path" value="${jboss.home.dir}/ssl/server.keystore.jks"/>
                         <param key="key-store-password" value="${VAULT::vaulted::generated.keystores.server.storepass::1}"/>
                     </netty-acceptor>
                     <in-vm-acceptor name="in-vm" server-id="0"/>
