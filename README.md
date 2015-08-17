@@ -39,9 +39,9 @@ Once installed you can use the JBoss BPM Suite login:
 Current hosting of bpmPaaS is on JBoss BPM Suite 6.0.2 in OpenShift Online.
 
 
-Option 3 - Generate docker install
-----------------------------------
-The following steps can be used to configure and run the demo in a docker container
+Option 3 - Generate containerized installation
+----------------------------------------------
+The following steps can be used to configure and run the demo in a container
 
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-install-demo/archive/master.zip)
 
