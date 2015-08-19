@@ -2,7 +2,7 @@ JBoss BPM Suite Install Demo
 =============================
 Project to automate the installation of this product without preconfiguration beyond a single admin user.
 
-There are three options available to you for using this demo; local, Openshift and Docker.
+There are three options available to you for using this demo; local, Openshift and containerized.
 
 
 Option 1 - Install on your machine
@@ -85,7 +85,7 @@ See the tagged releases for the following versions of the product:
 
 - v1.7 - JBoss BPM Suite 6.0.3 with email configuration for task notifications and reassignments.
 
-- v1.6 - JBoss BPM Suite 6.0.3 with optional docker installation.
+- v1.6 - JBoss BPM Suite 6.0.3 with optional containerized installation.
 
 - v1.5 - moved to JBoss Demo Central, updated windows init.bat support and one click install button.
 
