@@ -68,6 +68,8 @@ Additional information can be found in the jbossdemocentral docker [developer re
 
 Supporting Articles
 -------------------
+- [Quick Tour #4: Start your first JBoss BPM Suite project (video)](http://www.schabell.org/2015/09/quick-tour-4-start-first-bpms-project.html)
+
 - [Quick Tour #3: How to install JBoss BPM Suite (video)](http://www.schabell.org/2015/09/quick-tour-3-howto-install-jboss-bpms.html)
 
 - [Quick Tour #2: Where to get JBoss BPM Suite product (video)](http://www.schabell.org/2015/09/quick-tour-2-get-jboss-bpmsuite-product.html)
