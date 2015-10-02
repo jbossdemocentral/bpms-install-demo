@@ -91,6 +91,8 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
+- v1.9 - JBoss BPM Suite 6.2.0 installed on JBoss EAP 6.4.3.
+
 - v1.8 - JBoss BPM Suite 6.1 installed on JBoss EAP 6.4.
 
 - v1.7 - JBoss BPM Suite 6.0.3 with email configuration for task notifications and reassignments.
