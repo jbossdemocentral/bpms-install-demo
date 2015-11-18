@@ -1,0 +1,10 @@
+id: jbossdemocentral-bpms-install
+title: JBoss BPM Suite Easy Install Demo
+github_repo_url: https://github.com/jbossdemocentral/bpms-install-demo
+technologies:
+  - JBoss EAP
+  - JBoss BPM Suite
+summary: Project to automate the installation of JBoss BPM Suite without preconfiguration beyond a single admin user. There are three options available to you for using this demo; local, Openshift and containerized.
+level: Beginner
+product: bpmsuite
+author: Andrew Block, Eric D. Schabell
