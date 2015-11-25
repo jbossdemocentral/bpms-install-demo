@@ -95,10 +95,12 @@ if not "%ERRORLEVEL%" == "0" (
 	GOTO :EOF
 )
 
+call set NOPAUSE=true
+
 echo.
 echo Applying JBoss EAP patch now...
 echo.
-call %JBOSS_HOME%/bin/jboss-cli.bat --command='patch apply %SRC_DIR%/%EAP_PATCH%'
+call %JBOSS_HOME%/bin/jboss-cli.bat --command="patch apply %SRC_DIR%/%EAP_PATCH% --override-all"
 
 echo.
 echo BPM Suite installer running now...
@@ -125,7 +127,7 @@ echo.
 
 echo - setup email task notification users...
 echo.
-xcopy "%SUPPORT_DIR%\userinfo.properties" "%SERVER_DIR%\business-central.war\WEB-INF\classes\"
+xcopy /Y /Q "%SUPPORT_DIR%\userinfo.properties" "%SERVER_DIR%\business-central.war\WEB-INF\classes\"
 
 echo.
 echo You can now start the %PRODUCT% with %SERVER_BIN%\standalone.bat
