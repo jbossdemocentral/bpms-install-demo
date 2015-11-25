@@ -102,6 +102,13 @@ echo Applying JBoss EAP patch now...
 echo.
 call %JBOSS_HOME%/bin/jboss-cli.bat --command="patch apply %SRC_DIR%/%EAP_PATCH% --override-all"
 
+if not "%ERRORLEVEL%" == "0" (
+  echo.
+	echo Error Occurred During JBoss EAP Patch Installation!
+	echo.
+	GOTO :EOF
+)
+
 echo.
 echo BPM Suite installer running now...
 echo.
