@@ -59,7 +59,11 @@ The following steps can be used to configure and run the demo in a container
 	```
 	docker run -it -p 8080:8080 -p 9990:9990 jbossdemocentral/bpms-install-demo
 	```
-6. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!)
+6. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!) 
+
+   ```
+   determine DOCKER_HOST with $ docker-machine env
+   ```
 
 7. Enjoy installed and configured JBoss BPM Suite.
 
