@@ -95,6 +95,8 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
+- v2.1 - JBoss BPM Suite 6.2.0-BZ-1299002 installed on JBoss EAP 6.4.4.
+
 - v2.0 - JBoss BPM Suite 6.2.0, JBoss EAP 6.4.4 and OSE aligned containerization.
 
 - v1.9 - JBoss BPM Suite 6.2.0 installed on JBoss EAP 6.4.4.
