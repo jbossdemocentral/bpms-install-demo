@@ -45,7 +45,7 @@ Option 3 - Install on Red Hat CDK OpenShift Enterprise image
 The following steps can be used to install this demo on OpenShift Enterprise using the
 Red Hat Container Development Kit (CDK)
 
-1. [App Dev Cloud with JBoss BPM Suite InstallDemo](https://github.com/redhatdemocentral/rhcs-bpms-install-demo)
+1. [App Dev Cloud with JBoss BPM Suite Install Demo](https://github.com/redhatdemocentral/rhcs-bpms-install-demo)
 
 
 Option 4 - Generate containerized installation
