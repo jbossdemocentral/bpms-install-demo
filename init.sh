@@ -46,7 +46,7 @@ if [ -r $SRC_DIR/$EAP ] || [ -L $SRC_DIR/$EAP ]; then
 		echo Product sources are present...
 		echo
 else
-		echo Need to download $EAP package from the Customer Portal
+		echo Need to download $EAP package from http://developers.redhat.com
 		echo and place it in the $SRC_DIR directory to proceed...
 		echo
 		exit
@@ -66,7 +66,7 @@ if [ -r $SRC_DIR/$BPMS ] || [ -L $SRC_DIR/$BPMS ]; then
 		echo Product sources are present...
 		echo
 else
-		echo Need to download $BPMS package from the Customer Portal
+		echo Need to download $BPMS package from http://developers.redhat.com
 		echo and place it in the $SRC_DIR directory to proceed...
 		echo
 		exit
@@ -108,7 +108,7 @@ unzip -qo $SRC_DIR/$BPMS -d $TARGET
 #java -jar $SRC_DIR/$BPMS $SUPPORT_DIR/installation-bpms -variablefile $SUPPORT_DIR/installation-bpms.variables
 if [ $? -ne 0 ]; then
 	echo
-	echo Error occurred during JBoss BPM Suite installation!
+	echo Error occurred during $PRODUCT installation!
 	exit
 fi
 

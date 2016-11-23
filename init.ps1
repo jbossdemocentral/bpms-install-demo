@@ -89,7 +89,7 @@ if ((Get-Command "7z.exe" -ErrorAction SilentlyContinue) -eq $null)
    Write-Host "The '7z.exe' command is required but not available. Please install 7-Zip.`n"
 	 Write-Host "7-Zip is used to overcome the Windows 260 character limit on paths while extracting the JBoss BPM Suite ZIP file.`n"
 	 Write-Host "7-Zip can be donwloaded here: http://www.7-zip.org/download.html`n"
-	 Write-Host "Please make sure to add '7z.exe' to your 'PATH' after installation.`n""
+	 Write-Host "Please make sure to add '7z.exe' to your 'PATH' after installation.`n"
    exit
 }
 
