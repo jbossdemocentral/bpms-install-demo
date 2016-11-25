@@ -163,7 +163,7 @@ Write-Host "=                                                                   
 Write-Host "=  You can now start the $PRODUCT with:                             ="
 Write-Host "=                                                                          ="
 Write-Host "=   $SERVER_BIN\standalone.ps1                          ="
-Write-Host "=       or                                                                   ="
+Write-Host "=       or                                                                 ="
 Write-Host "=   $SERVER_BIN\standalone.bat                          ="
 Write-Host "=                                                                          ="
 Write-Host "=  Login into business central at:                                         ="
