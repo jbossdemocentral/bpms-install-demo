@@ -5,16 +5,23 @@ Project to automate the installation of this product without preconfiguration be
 There are four options available to you for using this demo; local, Openshift Online, Red Hat CDK OpenShift Enterprise and
 Containerized.
 
+Software
+--------
+The following software is required to run this demo:
+- JBoss EAP 7.0 installer: https://developers.redhat.com/download-manager/file/jboss-eap-7.0.0-installer.jar
+- JBoss BPM Suite 6.4.0.GA deployable for EAP 7:
+- 7-Zip (Windows only): to overcome the Windows 260 character path length limit, we need 7-Zip to unzip the BPM Suite deployable: http://www.7-zip.org/download.html
+
 
 Option 1 - Install on your machine
 ----------------------------------
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-install-demo/archive/master.zip)
 
-2. Add product installer to installs directory.
+2. Add the EAP installer and BPM Suite deployable to installs directory.
 
-3. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges.
+3. Run 'init.sh' or 'init.ps1' file.
 
-4. Start the runtime: `./target/jboss-eap-7.0/bin/standalone.sh'` or `.\target\jboss-eap-7.0\bin\standalone.bat`
+4. Start the runtime: `./target/jboss-eap-7.0/bin/standalone.sh'` or `.\target\jboss-eap-7.0\bin\standalone.ps1`
 
 5. Login to http://localhost:8080/business-central  (u:bpmsAdmin / p:bpmsuite1!)
 
@@ -27,7 +34,7 @@ The following steps can be used to configure and run the demo in a Docker contai
 
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-install-demo/archive/master.zip)
 
-2. Add product installer to installs directory.
+2. Add the EAP installer and BPM Suite deployable to installs directory.
 
 3. Run the 'init-docker.sh' or 'init-docker.ps1' file.
 
